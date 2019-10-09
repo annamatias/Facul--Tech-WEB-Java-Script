@@ -1,4 +1,4 @@
-alert("Aula de JavaScript");
+//alert(3+"4");
 
 //var soma = 0; ///Variaveis que iram armazenar um calculo, tem que inicializar com 0, para que não dê erro, 
 ///ou demora para executar e zerar a variavel e também para não trazer outras coisas para dentro da variavel
@@ -32,7 +32,7 @@ alert("Aula de JavaScript");
 
 /*Criar uma função que mostre um alert com a tabuada do número 2 quando o botão do formulario for clicado*/
 
-function tabuada(){
+/*function tabuada(){
     var tab = 0;
     for(tab; tab<=10; tab++){
         
@@ -40,3 +40,34 @@ function tabuada(){
         write("2 x "+tab "=" +2*tab+"<br/>");
 
 }
+var cidades = ["são paulo", "criciuma", "curit", "itajai","rs", "erec"];
+for (var 1=0; 1< cidades.length; i++){
+    var str = cidades[i]:
+    if(str.length ==8){
+        alert(document.write(str);
+        document.write("!");)
+    }
+} 
+
+var p = document.getElementById('par');
+alert(p);
+function exibir(){
+    var nome = document.getElementById("nome").value;
+    if (nome==null){
+    alert("campo não pode ser preenchido");
+    }
+}
+
+function pegar(){
+    return document.getElementById("par").value;
+}
+var valor = pegar();
+document.write(pegar());*/
+function tabuada(){
+    var num = document.getElementById("par").value;
+    for(var i = 0; i<=10;i++){
+        document.write(num + "x" + i + "=" + num *i + )
+    }
+}
+
+parseInt(num)
